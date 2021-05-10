@@ -1,0 +1,122 @@
+#mainHeader{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 40px 40px;
+    font-size: 50px;
+}
+
+body{
+    width: auto;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainNav {
+  
+    background-color: gray;
+    color: hotpink;
+}
+
+#mainNav ul{
+    list-style: none;
+}
+
+#mainNav li{
+    display: inline;
+     padding: 10px 20px;
+    font-size: 18px;
+    line-height: 1.6em;
+  
+}
+
+#mainNav a{
+   color:black;
+   text-decoration: none;
+    
+}
+
+#mainNav li:hover{
+    background-color: darkgray;
+}
+
+#heading{
+    text-align: center;
+    background-image: url('../IMAGES/wallpaper.jpg');
+    background-position: center;
+    padding: 40px;
+    font-size: 40;
+    
+}
+
+#mainSection{
+    width: 80%;
+    margin-top: 100;
+    padding: 20px 10px;
+   
+}
+
+#sideleft{
+    float: left;
+    width: 30%;
+    padding: 5px 10px;
+    border-right: 1px gray solid;
+    box-sizing: border-box;
+   
+}
+
+#rightBar{
+    background-image: url('../IMAGES/tree.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-width: 300;
+    float: right;
+    width: 70%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+#image{
+    
+    
+    background-repeat: no-repeat;
+}
+
+#image img{
+    min-height: 600;
+    min-width: 450;
+    border-image: auto;
+}
+#home{
+ width: 70%;
+ text-align: center;
+  border-top: 2px solid green;
+}
+
+#about{
+    width: 75%;
+    text-align: center;
+    border: dotted 2px gray;
+    font-size: 18;
+}
+
+#work table{
+    background-color: #f2dac3;
+     color: #564a4a;
+}
+#contact{
+    width: 90%;
+    padding: 10px;
+    color: darkolivegreen;
+}
+
+#foot{
+    font-size: 14;
+}
